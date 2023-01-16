@@ -6,6 +6,7 @@ function vypocti() {
     let vysledekHtml = document.getElementById("vysledek");
     let vysledek = 0;
 
+//mam rad banany
 
     switch (vyberOperace) {
         case '1':
