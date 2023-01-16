@@ -22,13 +22,13 @@
 
                 <!-- <label class="input-group-text" for="inputGroupSelect01">Options</label>-->
                 </div>
-                <select class="custom-select" id="inputGroupSelect01"style="max-width: 700px" id="operace">
+                <select class="custom-select"style="max-width: 700px" id="operace">
                     <!--<option selected>Choose...</option>-->
 
-                    <option value="+">+</option>
-                    <option value="-">-</option>
-                    <option value="/">/</option>
-                    <option value="*">*</option>
+                    <option value="1">+</option>
+                    <option value="2">-</option>
+                    <option value="3">/</option>
+                    <option value="4">*</option>
 
                 </select>
             </div>
@@ -36,7 +36,7 @@
         <div class="form-group">
             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Druhé číslo">
         </div>
-        <h1 class="text-center ">Výsledek =</h1>
+        <h1 class="text-center" id="vysledek">Výsledek =</h1>
         <output type="text-center" class="form-control" id="output"aria-describedby="emailHelp"></output>
         <button type="button" type="submit" class="btn btn btn-success btn-block" onclick="vypocti()">Vypočítat</button>
         </form>
